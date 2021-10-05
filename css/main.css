@@ -20,7 +20,7 @@ body {
 
 img {
   display: block;
-  width: 100%;
+  width: 95%;
 }
 
 header {
@@ -44,7 +44,10 @@ header p {
 }
 
 article div {
-  padding: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 article header {
@@ -87,7 +90,7 @@ nav a {
   border: 0;
   border-radius: 6px;
   color: #fff;
-  padding: 0.5rem;
+  padding: .5rem;
   width: 2.5rem;
   height: 2.5rem;
 }
@@ -117,7 +120,7 @@ nav i {
 
 article p {
   margin: 0;
-  text-indent: 1.3em;
+  text-indent: 1em;
 }
 
 article div :first-child {
@@ -134,9 +137,18 @@ figure {
 }
 
 figure img {
+  display: flex;
   border: 1px solid #259f95;
   border-radius: 6px;
-  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1.4rem;
+
+  /*
+  height: 417px;
+  */
+
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 figcaption {
