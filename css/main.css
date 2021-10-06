@@ -33,6 +33,11 @@ header {
   padding: 1rem;
 }
 
+li img {
+  display: block;
+  width: 100%;
+}
+
 header strong,
 header p {
   margin: 0;
@@ -98,6 +103,8 @@ nav a {
 nav a:hover,
 nav a:focus {
   background-color: #1e7c74;
+  outline: inherit;
+  border: 1px solid black;
 }
 
 .icon {
